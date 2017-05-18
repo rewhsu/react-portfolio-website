@@ -1,2 +1,8 @@
+// Packages
 node_modules
+
+// Debug
 npm-debug.log
+
+// Bundles
+bundle.js

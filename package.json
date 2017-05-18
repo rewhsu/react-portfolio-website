@@ -2,10 +2,11 @@
   "name": "react-portfolio-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "nodemon server/server.js",
+    "dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,14 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1",
+    "nodemon": "^1.11.0"
   }
 }
