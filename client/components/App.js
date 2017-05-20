@@ -1,5 +1,4 @@
 import React from 'react';
-import Projects from './Projects';
 import Navbar from './Navbar';
 
 export default class App extends React.Component {
@@ -7,8 +6,6 @@ export default class App extends React.Component {
     return (
       <div>
         <Navbar />
-        App
-        <Projects />
       </div>
     )
   }
