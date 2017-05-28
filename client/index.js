@@ -1,9 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './components/App';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+} from 'react-router-dom'
+import routes from './routes';
+import Navbar from './components/Navbar';
 
 ReactDOM.render(
-  <App />, 
+  <Router>
+    <div>
+      <Navbar />
+      {routes}
+    </div>
+  </Router>,
   document.getElementById('app')
 );
