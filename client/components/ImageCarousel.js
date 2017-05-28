@@ -22,8 +22,8 @@ export default class ImageCarousel extends React.Component {
       centerMode: true,
     };
     var style = {
-      width: auto;
-      margin: 0 auto;
+      'marginLeft': 'auto',
+      'marginRight': 'auto',
     }
     return (
       <div>
